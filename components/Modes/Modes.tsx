@@ -26,6 +26,7 @@ function Modes() {
 						Servers
 					</h2>
 				</div>
+<<<<<<< HEAD
 				<div className='flex flex-col md:flex-row justify-between max-w-6xl xl:max-w-7xl mx-auto items-center pt-10 space-y-6 md:space-y-0'>
 					<ModesBox
 						img='/block1.jpg'
@@ -39,6 +40,27 @@ function Modes() {
 						img='/block3.jpg'
 						link='https://cmpack.tebex.io/'
 					/>
+=======
+				<div className='flex flex-col md:flex-row justify-between max-w-7xl mx-auto items-center pt-10 space-y-6 md:space-y-0'>
+				<ModesBox 
+				title="Bedwars" 
+				description="Protect your bed, destroy others, and dominate in team battles." 
+				img="/block1.jpg" 
+				link="https://cmpack.tebex.io/" 
+				/>
+				<ModesBox 
+				title="Practice" 
+				description="Sharpen your skills and perfect your PvP techniques." 
+				img="/block2.jpg" 
+				link="https://cmpack.tebex.io/" 
+				/>
+				<ModesBox 
+				title="Arena PvP" 
+				description="Fight in the arena, where only the strongest survive." 
+				img="/block3.jpg" 
+				link="https://cmpack.tebex.io/" 
+				/>
+>>>>>>> 9ea3f05fb477cf8f4f54b439fde6c9aa95a87816
 				</div>
 			</div>
 

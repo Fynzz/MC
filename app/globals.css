@@ -15,6 +15,7 @@
 	}
 }
 
+<<<<<<< HEAD
 html {
 	scroll-behavior: smooth;
 	scroll-padding-top: 100px; /* Przesunięcie o 100px w górę */
@@ -37,6 +38,8 @@ html {
 	background-color: #000;
 }
 
+=======
+>>>>>>> 9ea3f05fb477cf8f4f54b439fde6c9aa95a87816
 body {
 	color: var(--foreground);
 	background: var(--background);
@@ -53,7 +56,11 @@ body {
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 9ea3f05fb477cf8f4f54b439fde6c9aa95a87816
 	.button-primary {
 		position: relative;
 		display: inline-block;
