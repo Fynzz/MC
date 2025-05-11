@@ -90,7 +90,7 @@ body {
 		display: inline-block;
 		padding: 0.1rem 2rem;
 		border: 2px solid transparent;
-		border-radius: 0.2rem;
+		border-radius: 0.4rem;
 		background: linear-gradient(90deg, #e7c104 0%, #ff780b 88%) padding-box,
 			linear-gradient(90deg, #ffd919 40%, #ff8c00 100%) border-box;
 		background-color: rgba(0, 0, 0, 0);
