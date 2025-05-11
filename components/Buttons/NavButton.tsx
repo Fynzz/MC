@@ -21,11 +21,10 @@ function NavButton({ svg, name, sectionId, link }: NavButtonProps) {
 
 	return (
 		<button
-			className="flex items-center gap-1 font-bold hover:translate-y-1 transition-transform"
-			onClick={goToSection}
-		>
-			<span className="text-[#e7c104]">{svg}</span>
-			{name}
+			className='flex items-center gap-1 font-bold hover:translate-y-1 transition-transform'
+			onClick={goToSection}>
+			<span className='text-[#e7c104]'>{svg}</span>
+			<p className=' text-xl'>{name}</p>
 		</button>
 	);
 }
