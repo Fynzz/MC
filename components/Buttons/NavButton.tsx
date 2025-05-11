@@ -10,26 +10,21 @@ interface NavButtonProps {
 }
 
 function NavButton({ svg, name, sectionId, link }: NavButtonProps) {
-	// const [menuOpen, setMenuOpen] = useState(false);
-
 	const goToSection = () => {
 		if (sectionId) {
 			const section = document.getElementById(sectionId);
 			if (section) section.scrollIntoView({ behavior: 'smooth' });
-			// setMenuOpen(false);
 		} else if (link) {
 			window.open(link, '_blank');
 		}
 	};
 
 	return (
-<<<<<<< HEAD
-		<button className='flex gap-1 font-bold' onClick={goToSection}>
-			<div className='text-[#e7c104]'>{svg}</div>
-=======
-		<button className='flex gap-1 hover:translate-y-1 font-bold transition-transform' onClick={goToSection}>
-			{svg}
->>>>>>> 9ea3f05fb477cf8f4f54b439fde6c9aa95a87816
+		<button
+			className="flex items-center gap-1 font-bold hover:translate-y-1 transition-transform"
+			onClick={goToSection}
+		>
+			<span className="text-[#e7c104]">{svg}</span>
 			{name}
 		</button>
 	);

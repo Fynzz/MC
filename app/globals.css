@@ -1,4 +1,3 @@
-/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,10 +14,9 @@
 	}
 }
 
-<<<<<<< HEAD
 html {
 	scroll-behavior: smooth;
-	scroll-padding-top: 100px; /* Przesunięcie o 100px w górę */
+	scroll-padding-top: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -38,8 +36,6 @@ html {
 	background-color: #000;
 }
 
-=======
->>>>>>> 9ea3f05fb477cf8f4f54b439fde6c9aa95a87816
 body {
 	color: var(--foreground);
 	background: var(--background);
@@ -50,30 +46,27 @@ body {
 	.text-balance {
 		text-wrap: balance;
 	}
+
 	.main-gradient {
 		background: linear-gradient(90deg, #e7c104 0%, #ff780b 28%);
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 9ea3f05fb477cf8f4f54b439fde6c9aa95a87816
 	.button-primary {
 		position: relative;
 		display: inline-block;
-		padding: 0.1rem 2rem; /* Adjust padding as needed */
+		padding: 0.1rem 2rem;
 		border: 2px solid transparent;
-		border-radius: 0.75rem; /* Adjust border radius as needed */
+		border-radius: 0.75rem;
 		background: linear-gradient(90deg, #e7c104 0%, #ff780b 88%) padding-box,
 			linear-gradient(90deg, #ffd919 40%, #ff8c00 100%) border-box;
-		background-color: rgba(0, 0, 0, 0); /* Transparent background */
-		color: var(--foreground); /* Text color */
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--foreground);
 		text-align: center;
 		text-decoration: none;
-		font-size: 1rem; /* Adjust font size as needed */
+		font-size: 1rem;
 		font-weight: bold;
 		transition: transform 0.3s ease, background-color 0.3s ease;
 	}
@@ -87,23 +80,24 @@ body {
 		width: 120%;
 		height: 120%;
 		border-radius: inherit;
-		background: rgba(255, 165, 0, 0.3); /* Glow color */
-		filter: blur(8px); /* Adjust blur radius as needed */
+		background: rgba(255, 165, 0, 0.3);
+		filter: blur(8px);
 		z-index: -1;
 	}
+
 	.button-secondary {
 		position: relative;
 		display: inline-block;
-		padding: 0.1rem 2rem; /* Adjust padding as needed */
+		padding: 0.1rem 2rem;
 		border: 2px solid transparent;
-		border-radius: 0.2rem; /* Adjust border radius as needed */
+		border-radius: 0.2rem;
 		background: linear-gradient(90deg, #e7c104 0%, #ff780b 88%) padding-box,
 			linear-gradient(90deg, #ffd919 40%, #ff8c00 100%) border-box;
-		background-color: rgba(0, 0, 0, 0); /* Transparent background */
-		color: var(--foreground); /* Text color */
+		background-color: rgba(0, 0, 0, 0);
+		color: var(--foreground);
 		text-align: center;
 		text-decoration: none;
-		font-size: 1rem; /* Adjust font size as needed */
+		font-size: 1rem;
 		font-weight: bold;
 		transition: transform 0.3s ease, background-color 0.3s ease;
 	}
@@ -117,8 +111,8 @@ body {
 		width: 120%;
 		height: 120%;
 		border-radius: inherit;
-		background: rgba(255, 165, 0, 0.3); /* Glow color */
-		filter: blur(8px); /* Adjust blur radius as needed */
+		background: rgba(255, 165, 0, 0.3);
+		filter: blur(8px);
 		z-index: -1;
 	}
 }
