@@ -1,7 +1,7 @@
 # 🛡️ CMCLIENT Server Webiste
 This project is a modern, responsive web application built for a Minecraft server with multiple game modes. Built using React, Tailwind CSS, and Next.js, the website features a real-time player count, an overview of available game modes like Survival, Practice, and Arena PvP, and a dedicated section for showcasing server administrators.
 
-<img src="public/header.png" style="width: 100%;" alt="AmazingDev Server Website">
+<img src="public/main-hd.png" style="width: 100%;" alt="AmazingDev Server Website">
 
 ## 🚀 Features
 
