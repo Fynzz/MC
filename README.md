@@ -13,7 +13,7 @@ This project is a modern, responsive web application built for a Minecraft serve
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <img src="public/mode.png" style="width: 45%;" alt="Blog Szkolny">
-    <img src="public/staff.png" style="width: 42%;" alt="Blog Szkolny">
+    <img src="public/staff.png" style="width: 41%;" alt="Blog Szkolny">
 </div>
 
 ##ℹ️ FAQ
