@@ -12,8 +12,8 @@ This project is a modern, responsive web application built for a Minecraft serve
 - Smooth UI – Built with Tailwind and React to deliver elegant animations and a snappy user experience.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="public/mode.png" style="width: 50%;" alt="Blog Szkolny">
-    <img src="public/staff.png" style="width: 50%;" alt="Blog Szkolny">
+    <img src="public/mode.png" style="width: 45%;" alt="Blog Szkolny">
+    <img src="public/staff.png" style="width: 45%;" alt="Blog Szkolny">
 </div>
 
 ##ℹ️ FAQ
