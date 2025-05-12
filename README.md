@@ -16,7 +16,7 @@ This project is a modern, responsive web application built for a Minecraft serve
     <img src="public/staff.png" style="width: 41%;" alt="Blog Szkolny">
 </div>
 
-##ℹ️ FAQ
+## ℹ️ FAQ
 
 ### How is the player count updated?
 The live player counter uses a third-party public API to fetch the current number of players online and updates automatically without needing a page refresh.
