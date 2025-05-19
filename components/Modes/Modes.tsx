@@ -1,5 +1,6 @@
 import React from 'react';
 import ModesBox from '../Boxes/ModesBox';
+import config from '../../config/config.json';
 
 function Modes() {
 	return (
@@ -28,25 +29,18 @@ function Modes() {
 					</h2>
 				</div>
 
-				<div className='flex flex-col md:flex-row justify-between max-w-7xl mx-auto items-center pt-10 space-y-6 md:space-y-0'>
-					<ModesBox 
-						title="Bedwars" 
-						description="Protect your bed, destroy others, and dominate in team battles." 
-						img="/block1.jpg" 
-						link="https://cmpack.tebex.io/" 
-					/>
-					<ModesBox 
-						title="Practice" 
-						description="Sharpen your skills and perfect your PvP techniques." 
-						img="/block2.jpg" 
-						link="https://cmpack.tebex.io/" 
-					/>
-					<ModesBox 
-						title="Arena PvP" 
-						description="Fight in the arena, where only the strongest survive." 
-						img="/block3.jpg" 
-						link="https://cmpack.tebex.io/" 
-					/>
+				<div
+					id='store'
+					className='flex flex-col md:flex-row justify-between max-w-7xl mx-auto items-center pt-10 space-y-6 md:space-y-0'>
+					{config.modes.items.map(mode => (
+						<ModesBox
+							key={mode.title}
+							title={mode.title}
+							description={mode.description}
+							img={mode.img}
+							link={mode.link}
+						/>
+					))}
 				</div>
 			</div>
 

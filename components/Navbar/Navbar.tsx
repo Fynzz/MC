@@ -1,17 +1,21 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import config from '../../config/config.json';
 import Image from 'next/image';
 import NavButton from '../Buttons/NavButton';
 import { IconShoppingCart, IconUsers, IconBrandDiscord, IconMenu, IconX } from '@tabler/icons-react';
 import Link from 'next/link';
+
+
+type IconKey = 'IconShoppingCart' | 'IconUsers' | 'IconBrandDiscord';
 
 function Navbar() {
 	const [playerCount, setPlayerCount] = useState<string | null>(null);
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	useEffect(() => {
-		const serverAddress = 'tabmc.pl';
+		const serverAddress = config.navbar.ip;
 		const apiUrl = `https://api.mcstatus.io/v2/status/java/${serverAddress}`;
 
 		fetch(apiUrl)
@@ -27,6 +31,12 @@ function Navbar() {
 			});
 	}, []);
 
+	const iconMap: Record<IconKey, JSX.Element> = {
+		IconShoppingCart: <IconShoppingCart strokeWidth={2} />,
+		IconUsers: <IconUsers strokeWidth={2} />,
+		IconBrandDiscord: <IconBrandDiscord strokeWidth={2} />,
+	};
+
 	return (
 		<div className='flex flex-col md:flex-row justify-between px-10 items-center max-w-7xl mx-auto pt-5'>
 			<div className='flex justify-between items-center w-full md:w-auto'>
@@ -34,7 +44,8 @@ function Navbar() {
 					<div className='flex justify-center items-center gap-1'>
 						<Image unoptimized alt='logo' width={30} height={30} src={'/CMLogo.png'} />
 						<Link className='text-2xl font-bold' href=''>
-							<span className='main-gradient'>CM</span>CLIENT
+							<span className='main-gradient'>{config.navbar.logo.highlightedText}</span>
+							{config.navbar.logo.plainText}
 						</Link>
 					</div>
 					<a className='button-primary'>{playerCount || 'Loading...'}</a>
@@ -47,9 +58,10 @@ function Navbar() {
 			<div
 				className={`md:flex md:flex-row item md:items-center md:gap-3 mt-4 md:mt-0 ${isMenuOpen ? 'block' : 'hidden'}`}>
 				<div className='flex flex-col md:flex-row md:items-center md:gap-3'>
-					<NavButton svg={<IconShoppingCart strokeWidth={2} />} name='Store' sectionId='store' />
-					<NavButton svg={<IconUsers strokeWidth={2} />} name='Community' sectionId='community' />
-					<NavButton svg={<IconBrandDiscord strokeWidth={2} />} name='Discord' link='https://discord.com' />
+					{config.navbar.links.map((btn, i) => {
+						const icon = iconMap[btn.icon as IconKey];
+						return <NavButton key={i} svg={icon} name={btn.name} sectionId={btn.sectionId} link={btn.link} />;
+					})}
 				</div>
 			</div>
 		</div>

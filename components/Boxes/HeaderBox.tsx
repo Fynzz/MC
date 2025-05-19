@@ -1,17 +1,25 @@
 import React from 'react';
+import Link from 'next/link';
 
-interface HeaderProps {
+interface HeaderBoxProps {
 	title: string;
 	description: string;
+	buttonText?: string;
+	buttonLink?: string;
 }
 
-function HeaderBox({ title, description }: HeaderProps) {
+const HeaderBox: React.FC<HeaderBoxProps> = ({ title, description, buttonText, buttonLink }) => {
 	return (
-		<div className='hover:scale-125 pb-10 md:pb-0 transition-transform cursor-cell'>
-			<h2 className='main-gradient md:text-2xl text-xl font-black'>{title}</h2>
-			<p className='opacity-[70%] hidden md:flex text-sm max-w-52 font-semibold'>{description}</p>
+		<div className='header-box max-w-md'>
+			<h2 className='font-bold text-4xl xl:text-7xl pb-4'>{title}</h2>
+			<p className='font-semibold xl:text-xl opacity-[60%] pb-3'>{description}</p>
+			{buttonText && buttonLink && (
+				<Link href={buttonLink}>
+					<a className='button-secondary hover:scale-105'>{buttonText}</a>
+				</Link>
+			)}
 		</div>
 	);
-}
+};
 
 export default HeaderBox;

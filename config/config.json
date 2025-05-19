@@ -1,0 +1,105 @@
+{
+	"navbar": {
+		"logo": {
+			"highlightedText": "CM",
+			"plainText": "CLIENT"
+		},
+		"links": [
+			{
+				"name": "Store",
+				"sectionId": "store",
+				"icon": "IconShoppingCart"
+			},
+			{
+				"name": "Community",
+				"sectionId": "community",
+				"icon": "IconUsers"
+			},
+			{
+				"name": "Discord",
+				"link": "https://discord.com",
+				"icon": "IconBrandDiscord"
+			}
+		],
+		"ip": "tabmc.pl"
+	},
+	"hero": {
+		"headline": "Adventures",
+		"subtitle": "are waiting for you",
+		"description": "Join CMCLIENT Network! Enjoy Minecraft with friends. Fun, friendly server. Check it out!",
+		"cta": "Join Now"
+	},
+	"modes": {
+		"items": [
+			{
+				"title": "Bedwars",
+				"description": "Protect your bed, destroy others, and dominate in team battles.",
+				"img": "/block2.jpg",
+				"link": "https://cmpack.tebex.io/"
+			},
+			{
+				"title": "Practice",
+				"description": "Sharpen your skills and perfect your PvP techniques.",
+				"img": "/block1.jpg",
+				"link": "https://cmpack.tebex.io/"
+			},
+			{
+				"title": "Arena PvP",
+				"description": "Fight in the arena, where only the strongest survive.",
+				"img": "/block3.jpg",
+				"link": "https://cmpack.tebex.io/"
+			}
+		]
+	},
+	"staff": {
+		"items": [
+			{
+				"uuid": "536d590d-90d3-4d41-a01c-6a5fec9e7b03",
+				"name": "cmclient",
+				"role": "Server Developer",
+				"contactMethod": "support@cmclient.pl",
+				"nationality": "pl"
+			},
+			{
+				"uuid": "a782b599-88a5-4b7e-9166-a724d8fa92c0",
+				"name": "amazingpl",
+				"role": "Frontend Developer",
+				"contactMethod": "support@cmclient.pl",
+				"nationality": "pl"
+			},
+			{
+				"uuid": "327dec49-46d7-4b0d-992f-1c03365b2b65",
+				"name": "merv1k",
+				"role": "Administrator",
+				"contactMethod": "support@cmclient.pl",
+				"nationality": "pl"
+			}
+		]
+	},
+	"footer": {
+		"texts": {
+			"title": {
+				"highlightedText": "CM",
+				"plainText": "CLIENT"
+			},
+			"subtitle": "Feel the best experience of gaming with us",
+			"socialsTitle": "Socials",
+			"legalTitle": "Legal",
+			"copyright": "© CMCLIENT {{currentYear}}. All Rights Reserved.",
+			"supportEmail": "support@cmclient.pl",
+			"privacyPolicy": "Privacy policy",
+			"privacyPolicyLink": "https://cm-pack.pl/en/privacy",
+			"termsOfService": "Terms of service",
+			"termsOfServiceLink": "https://cm-pack.pl/en/tos"
+		},
+		"socialLinks": {
+			"discord": "https://discord.com",
+			"youtube": "https://youtube.com",
+			"instagram": "https://instagram.com",
+			"tiktok": "https://tiktok.com",
+			"twitter": "https://twitter.com",
+			"github": "https://github.com"
+		},
+		"logoSrc": "/CMLogo.png"
+	}
+}
