@@ -15,7 +15,7 @@ function Header() {
 					<p className='font-semibold xl:text-xl max-w-md xl:max-w-xl opacity-[60%] pb-3 mx-auto md:mx-0'>
 						{config.hero.description}
 					</p>
-					<Link href={''} className='button-secondary hover:scale-105'>
+					<Link href={'https://chat.whatsapp.com/JveM6KxPihRKdBeEbnZCky'} className='button-secondary hover:scale-105'>
 						{config.hero.cta}
 					</Link>
 				</div>

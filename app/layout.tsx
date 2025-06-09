@@ -9,8 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-	title: 'CMCLIENT Network',
-	description: 'CMCLIENT Network is created with you in mind! Are you looking for a minecraft server where you can spend your free time and at the same time play with your friends? Check out our server and you will definitely not be disappointed!',
+	title: 'Java Myth Network',
+	description: 'Java Myth Network is created with you in mind! Are you looking for a minecraft server where you can spend your free time and at the same time play with your friends? Check out our server and you will definitely not be disappointed!',
 	robots: 'noindex, nofollow'
 };
 

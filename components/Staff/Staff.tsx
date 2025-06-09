@@ -22,7 +22,7 @@ function Staff() {
 				</h2>
 			</div>
 			<div className='flex flex-col md:flex-row justify-between max-w-5xl mx-auto items-center pt-10 space-y-8 md:space-y-0'>
-				{config.staff.items.map(({ uuid, name, role, contactMethod, nationality }) => (
+				{config.staff.items.map(({ uuid, name, role, contactMethod, nationality,}) => (
 					<StaffBox
 						key={uuid}
 						uuid={uuid}

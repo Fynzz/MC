@@ -1,96 +1,105 @@
 {
 	"navbar": {
 		"logo": {
-			"highlightedText": "CM",
-			"plainText": "CLIENT"
+			"highlightedText": "JAVA",
+			"plainText": "MYTH"
 		},
 		"links": [
 			{
-				"name": "Store",
+				"name": "",
 				"sectionId": "store",
-				"icon": "IconShoppingCart"
+				"icon": ""
 			},
 			{
-				"name": "Community",
+				"name": "",
 				"sectionId": "community",
-				"icon": "IconUsers"
+				"icon": ""
 			},
 			{
-				"name": "Discord",
-				"link": "https://discord.com",
-				"icon": "IconBrandDiscord"
+				"name": "",
+				"link": "",
+				"icon": ""
 			}
 		],
-		"ip": "tabmc.pl"
+		"ip": "buzz.opblocks.com"
 	},
 	"hero": {
-		"headline": "Adventures",
-		"subtitle": "are waiting for you",
-		"description": "Join CMCLIENT Network! Enjoy Minecraft with friends. Fun, friendly server. Check it out!",
-		"cta": "Join Now"
+		"headline": "Petualangan",
+		"subtitle": "Telah menantikan kamu!",
+		"description": "Gabung Java Myth Server! Nikmati Minecraft bersama teman. Banyak kesenangan dan kebahagiaan. Ayo bermain!",
+		"cta": "Gabung Sekarang"
+		
 	},
 	"modes": {
 		"items": [
 			{
-				"title": "Bedwars",
-				"description": "Protect your bed, destroy others, and dominate in team battles.",
+				"title": "Bedrock",
+				"description": "Suport Version 1.21.81+",
 				"img": "/block2.jpg",
-				"link": "https://cmpack.tebex.io/"
+				"link": "https://chat.whatsapp.com/JveM6KxPihRKdBeEbnZCky"
 			},
 			{
-				"title": "Practice",
-				"description": "Sharpen your skills and perfect your PvP techniques.",
+				"title": "Java",
+				"description": "Coming Soon.",
 				"img": "/block1.jpg",
-				"link": "https://cmpack.tebex.io/"
+				"link": ""
 			},
 			{
-				"title": "Arena PvP",
-				"description": "Fight in the arena, where only the strongest survive.",
-				"img": "/block3.jpg",
-				"link": "https://cmpack.tebex.io/"
+				"title": "Bedrock dan Java",
+				"description": "Coming Soon.",
+				"img": "/block1.jpg",
+				"link": ""
 			}
 		]
 	},
 	"staff": {
 		"items": [
 			{
-				"uuid": "536d590d-90d3-4d41-a01c-6a5fec9e7b03",
-				"name": "cmclient",
+				"uuid": "39492842-ac44-4f8f-bc31-86ffaa9d3317",
+				"name": "Arteshie",
 				"role": "Server Developer",
-				"contactMethod": "support@cmclient.pl",
-				"nationality": "pl"
+				"contactMethod": "support@javamyth.id",
+				"nationality": "id"
+				
 			},
 			{
-				"uuid": "a782b599-88a5-4b7e-9166-a724d8fa92c0",
-				"name": "amazingpl",
-				"role": "Frontend Developer",
-				"contactMethod": "support@cmclient.pl",
-				"nationality": "pl"
+				"uuid": "d103ebec-f94b-418c-9af9-3c87cd7615fd",
+				"name": "Finfal",
+				"role": "Website Developer",
+				"contactMethod": "support@javamyth.id",
+				"nationality": "id"
 			},
 			{
-				"uuid": "327dec49-46d7-4b0d-992f-1c03365b2b65",
-				"name": "merv1k",
-				"role": "Administrator",
-				"contactMethod": "support@cmclient.pl",
-				"nationality": "pl"
+				"uuid": "b2584b7c-53fb-411d-adec-60e878797a4a",
+				"name": "finfal",
+				"role": "Builder Server",
+				"contactMethod": "support@javamyth.id",
+				"nationality": "id"
+			},
+			{
+				"uuid": "2625fb7c-2be7-4051-928d-44fb371a5540",
+				"name": "Hime",
+				"role": "Administrator Server",
+				"contactMethod": "support@javamyth.id",
+				"nationality": "id"
 			}
 		]
 	},
 	"footer": {
 		"texts": {
 			"title": {
-				"highlightedText": "CM",
-				"plainText": "CLIENT"
+				"highlightedText": "JAVA",
+				"plainText": "MYTH"
 			},
-			"subtitle": "Feel the best experience of gaming with us",
+			"subtitle": "Rasakan pengalaman bermain minecraft bersama kita!",
 			"socialsTitle": "Socials",
 			"legalTitle": "Legal",
-			"copyright": "© CMCLIENT {{currentYear}}. All Rights Reserved.",
-			"supportEmail": "support@cmclient.pl",
+			"copyright": "© JAWAMYTH {{currentYear}}. All Rights Reserved.",
+			"supportEmail": "support@javamyth.id",
 			"privacyPolicy": "Privacy policy",
-			"privacyPolicyLink": "https://cm-pack.pl/en/privacy",
+			"privacyPolicyLink": "",
 			"termsOfService": "Terms of service",
-			"termsOfServiceLink": "https://cm-pack.pl/en/tos"
+			"termsOfServiceLink": ""
 		},
 		"socialLinks": {
 			"discord": "https://discord.com",
