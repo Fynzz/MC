@@ -15,8 +15,8 @@ function StaffBox({ uuid, name, role, contactIcon, contactMethod, nationalityIco
 		<div className="flex flex-col items-center justify-center bg-[#242424] border-2 border-[#606060] rounded-xl p-3 hover:border-[#e7c104] transition-colors">
 			<Image
 				alt="minecraft skin front"
-				width={100}
-				height={100}
+				width={150}
+				height={150}
 				src={`https://skins.mcstats.com/body/front/${uuid}?shadow=true&enableCosmeticType=cloak`}
 			/>
 			<div>
