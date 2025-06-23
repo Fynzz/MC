@@ -31,7 +31,7 @@ function Modes() {
 
 				<div
 					id='store'
-					className='flex flex-col md:flex-row justify-between max-w-7xl mx-auto items-center pt-10 space-y-6 md:space-y-0'>
+					className='flex flex-col md:flex-row justify-center max-w-7xl mx-auto items-center pt-10 space-y-6 md:space-y-0'>
 					{config.modes.items.map(mode => (
 						<ModesBox
 							key={mode.title}

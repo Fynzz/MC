@@ -16,7 +16,7 @@ function Navbar() {
 
 	useEffect(() => {
 		const serverAddress = config.navbar.ip;
-		const apiUrl = `https://api.mcstatus.io/v2/status/java/${serverAddress}`;
+		const apiUrl = `https://api.mcsrvstat.us/bedrock/3/${serverAddress}`;
 
 		fetch(apiUrl)
 			.then(response => response.json())

@@ -21,7 +21,8 @@
 				"icon": ""
 			}
 		],
-		"ip": "ip-31-57-224-127.raznar-net.my.id"
+		"ip": "ip-31-57-224-127.raznar-net.my.id:19233"
+		
 	},
 	"hero": {
 		"headline": "Petualangan",
@@ -34,22 +35,17 @@
 		"items": [
 			{
 				"title": "Bedrock",
-				"description": "Suport Version 1.21.81+",
+				"description": "Suport Version 1.21.91.1+",
 				"img": "/block2.jpg",
 				"link": "https://chat.whatsapp.com/JveM6KxPihRKdBeEbnZCky"
 			},
 			{
-				"title": "Java",
-				"description": "Coming Soon.",
-				"img": "/block1.jpg",
-				"link": ""
-			},
-			{
-				"title": "Bedrock dan Java",
-				"description": "Coming Soon.",
-				"img": "/block1.jpg",
-				"link": ""
+				"title": "Guide Book",
+				"description": "Berisi tentang cara join ke server, peraturan dan juga panduan bermain.",
+				"img": "/block4.jpg",
+				"link": "https://javamyth-guidebook.vercel.app/"
 			}
+		
 		]
 	},
 	"staff": {
