@@ -30,20 +30,27 @@
 		"description": "Gabung Java Myth Server! Nikmati Minecraft bersama teman. Banyak kesenangan dan kebahagiaan. Ayo bermain!",
 		"cta": "Gabung Sekarang"
 		
+		
 	},
 	"modes": {
 		"items": [
 			{
 				"title": "Bedrock",
 				"description": "Suport Version 1.21.91.1+",
-				"img": "/block2.jpg",
+				"img": "/poster.png",
 				"link": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe&hl=id"
 			},
 			{
 				"title": "Guide Book",
 				"description": "Berisi tentang cara join ke server, peraturan dan juga panduan bermain.",
-				"img": "/block4.jpg",
+				"img": "/GuideBook.png",
 				"link": "https://javamyth-guidebook.vercel.app/"
+			},
+			{
+				"title": "Java Myth Lore",
+				"description": "Berisi tentang lore dari server Java Myth.",
+				"img": "/lore.png",
+				"link": "https://java-myth-lore.vercel.app/"
 			}
 		
 		]
@@ -68,7 +75,7 @@
 			},
 			{
 				"uuid": "d103ebec-f94b-418c-9af9-3c87cd7615fd",
-				"name": "Finfal",
+				"name": "Fynzz",
 				"role": "Website Dev",
 				"contactMethod": "support@javamyth.id",
 				"nationality": "id"
